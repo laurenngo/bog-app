@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buddy Buddy | HELP YOUR BUDDY FIND BUDDIES</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600' rel='stylesheet' type='text/css'>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<div class="navbar">
+  <a class="navbar-brand" href="/">BUDDY BUDDY</a>
+  <ul class="nav navbar-nav">
+    <li class="link">
+      <a href="/dogs/list">DOGGY DIRECTORY</a>
+    </li>
+     <li class="link">
+      <a href="/dogs/new">ADD A DOG</a>
+    </li>
+  </ul>
+</div>
+
+
+<body>
+
+<%= yield %>
+
+</body>
+</html>

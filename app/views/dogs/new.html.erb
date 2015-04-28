@@ -1,0 +1,18 @@
+<h1>Add a Puppy Member!</h1>
+
+  <%= bootstrap_form_for @dog do |f| %>
+
+
+    <%= f.text_field :name, :placeholder => "ENTER YOUR DOG'S NAME" %><br>
+
+    <%= f.text_field :breed, :placeholder => "ENTER YOUR DOG'S BREED" %><br>
+
+    <%= f.text_field :age, :placeholder => "ENTER YOUR DOG'S AGE" %><br>
+
+    <%= f.text_field :description, :placeholder => "ENTER YOUR DOG'S DESCRIPTION" %><br><br>
+
+
+  <%= f.primary %>
+
+
+<% end %>

@@ -1,0 +1,92 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/*rgb(133,117,99) - brown */
+
+/*rgb(10,24,40) - dark blue */
+/*rgb(253,191,52) - yellow */
+/*rgb(100,100,100) - grey */
+
+/*GENERAL*/
+
+
+
+body {
+  font-family: 'Josefin Slab', serif;
+  background-color: rgb(10,24,40);
+}
+
+.navbar {
+  background-color: rgb(253,191,52);
+}
+
+.navbar-brand {
+  font-size: 26px;
+  font-weight:600;
+  color: rgb(5,64,94);
+}
+
+
+.link a{
+  font-size:16px;
+  color: rgb(10,24,40);
+}
+
+.link a:hover {
+  font-size:17px;
+}
+
+
+
+
+/*HOME*/
+
+.item img {
+  width:100%;
+  max-height:1000px;
+}
+
+.item {
+  overflow:hidden;
+  max-height: 560px;
+
+
+}
+
+#home-header {
+  font-size:50px;
+  margin: 10px auto;
+  width: 80%;
+  color: white ;
+}
+
+
+/*LIST PAGE*/
+
+.each-dog {
+  list-style:none;
+  background-color:white;
+  font-size:18px;
+
+}
+
+.dog-name {
+  background-color:rgb(133,117,99);
+  text-decoration: none;
+  color:white;
+}
+
+

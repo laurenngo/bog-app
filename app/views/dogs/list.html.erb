@@ -1,0 +1,29 @@
+
+
+<div class="container" id="doggy-directory">
+
+<h1>DOGGY DIRECTORY</h1>
+
+  <%= link_to "ADD A DOG", new_dog_path, :class=>"btn btn-primary" %>
+
+
+    <% @dogs.each do |d| %>
+
+    <li class="each-dog">
+
+      <div class="dog-name"><%= link_to d.name, d %></div>
+      <label>BREED.</label>
+      <%= d.breed %> <br>
+      <label>AGE.</label>
+      <%= d.age %><br>
+
+    </li>
+
+    <% end %>
+
+    </div>
+
+
+
+
+</div>
